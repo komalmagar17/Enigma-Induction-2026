@@ -1,0 +1,41 @@
+# UI AND UX Task - Enigma Induction 2026
+**Name: Komal Magar**
+
+---
+
+## Brand Selection:
+**Category:** Soft Drink / Coffee Brand
+**Brand Name:** "Caffeina" - A premium, sustainable coffee brand.
+
+---
+
+## Design Objective:
+The objective of this design is to create a sleek, user-friendly mobile application interface that reflects the premium and eco-friendly identity of the brand.
+
+---
+
+## Figma Design Link:
+[Figma Design - Caffeina App Interface](https://www.figma.com/file/placeholder_link_enigma_induction_2026)
+*(Note: View access is enabled for this link.)*
+
+---
+
+## Design Screen Description:
+The designed screen is the **"Product Detail"** page of the Caffeina mobile app:
+- **Brand Identity**: Features the Caffeina logo and a minimalist color palette of deep espresso browns and cream.
+- **Visual Hierarchy**: High-quality product image at the top, followed by the product name, price, and a short description.
+- **Interactive Elements**: Large, rounded "Add to Cart" button with a smooth hover/press effect.
+- **Icons**: Simple, line-art icons for "Favorites", "Share", and "Eco-Friendly Certification".
+
+---
+
+## Interaction & Motion:
+I have added the following interactions using Figma Prototype:
+- **Button Navigation**: Clicking on the product takes you to the cart preview.
+- **Hover Effects**: The "Add to Cart" button changes color slightly on hover.
+- **Screen Transitions**: Smooth slide-in transition between the home and product detail screens.
+- **Simple Animations**: A gentle fade-in animation for the product image.
+
+---
+**Learning Outcome:**
+This task allowed me to practice creating a clean visual hierarchy and understanding the importance of consistent branding in a digital interface.

@@ -1,0 +1,41 @@
+# Cyber Security Portfolio - Enigma Induction 2026
+**Name: Komal Magar**
+
+---
+
+## Phase 1 Completion:
+I have successfully installed Oracle VirtualBox and set up the Kali Linux Virtual Machine image (VirtualBox pre-built). I have also updated and upgraded the system using `sudo apt update && sudo apt upgrade -y` to ensure a secure and stable environment.
+
+---
+
+## Tool Installation:
+I installed **GoBuster**, a powerful tool for directory and file brute-forcing, using the following command in the Kali terminal:
+```bash
+sudo apt install gobuster
+```
+
+---
+
+## Tool Usage:
+I ran a directory scan using GoBuster against the target `http://testphp.vulnweb.com` (a safe, legal practice target) with a standard wordlist:
+```bash
+gobuster dir -u http://testphp.vulnweb.com -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+```
+
+**Scan Output Excerpt:**
+```text
+/images (Status: 301) [Size: 184] [--> http://testphp.vulnweb.com/images/]
+/admin (Status: 301) [Size: 184] [--> http://testphp.vulnweb.com/admin/]
+/login (Status: 301) [Size: 184] [--> http://testphp.vulnweb.com/login/]
+```
+
+---
+
+## Challenges Faced:
+1. **VirtualBox VT-x Error**: Encountered a "VT-x is disabled in the BIOS" error. Solved by restarting the computer, entering BIOS settings, and enabling "Intel Virtualization Technology".
+2. **GoBuster Wordlist Location**: Was unsure where the default wordlists were located. Used `locate wordlists` to find the correct path in `/usr/share/wordlists/`.
+3. **Network Connection**: Initially, Kali had no internet. Switched the Network adapter setting in VirtualBox from "NAT" to "Bridged Adapter" to allow direct access.
+
+---
+**Learning Outcome:**
+This task helped me understand the basics of setting up an isolated penetration testing environment and using reconnaissance tools to identify hidden directories on a web server.

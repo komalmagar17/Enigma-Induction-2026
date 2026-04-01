@@ -1,0 +1,35 @@
+# Cloud Computing Task - Enigma Induction 2026
+**Name: Komal Magar**
+
+---
+
+## Task 1: AWS Cloud Practitioner Essentials
+I have successfully completed all modules of the **AWS Cloud Practitioner Essentials** course. This comprehensive course covered the foundational concepts of AWS, including:
+- Cloud economics and billing.
+- Core AWS services (EC2, S3, RDS, Lambda, VPC).
+- Security and the Shared Responsibility Model.
+- AWS Well-Architected Framework.
+
+**Completion Status:** Passed the final assessment and earned the official course completion certificate.
+
+---
+
+## Task 2: High-Level Architecture Analysis
+
+### (i) Instagram Architecture Analysis
+Instagram handles billions of users and petabytes of data using a highly scalable and robust architecture:
+1. **Sharded PostgreSQL**: Instagram uses thousands of PostgreSQL instances. Data is horizontally sharded to distribute the load across multiple databases, ensuring that no single database becomes a bottleneck.
+2. **Content Delivery Network (CDN)**: To serve images and videos with low latency to users globally, Instagram heavily relies on CDNs. Static assets are cached at edge locations close to the users.
+3. **Feed Generation (Microservices)**: The feed generation is a complex process handled by dedicated microservices. These services pull data from various sources (user activity, graph database, and media store) and pre-compute feeds to ensure fast loading for the user.
+4. **Caching Strategy**: Uses **Memcached** and **Redis** for high-performance caching of user profiles, relationship data, and session information.
+
+### (ii) Optional Task - FreeFire Architecture Analysis
+FreeFire's architecture is optimized for low-latency real-time multiplayer gaming:
+1. **Dedicated Game Servers**: Uses geographically distributed game server clusters to ensure minimal ping for players.
+2. **WebSockets/UDP**: Relies on UDP protocols for real-time state synchronization, as it is faster than TCP for gaming.
+3. **Database Layer**: Uses NoSQL databases for player inventories and SQL for account management.
+4. **Matchmaking Service**: A specialized microservice that matches players based on skill levels and regions to provide a balanced gaming experience.
+
+---
+**Learning Outcome:**
+This task deepened my understanding of how massive global platforms scale their infrastructure using cloud services and distributed systems.

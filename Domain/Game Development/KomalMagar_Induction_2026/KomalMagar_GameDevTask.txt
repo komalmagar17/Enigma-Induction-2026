@@ -1,0 +1,34 @@
+# Game Development Task - Enigma Induction 2026
+**Name: Komal Magar**
+
+---
+
+## Objective: Beginner Environment Design
+**Category:** Fantasy Forest
+**Theme:** "The Whispering Woods" - A mysterious, lush forest with glowing flora.
+
+---
+
+## Design Concepts:
+The environment is designed to create an immersive and mystical atmosphere:
+1. **Lush Greenery**: Used high-density trees and ferns from the Unity Asset Store to create a sense of depth and mystery.
+2. **Glowing Flora**: Placed custom-lit mushrooms and glowing vines to guide the viewer's eye through the scene.
+3. **Lighting**: Implemented a "Volumetric Lighting" (God Rays) effect to simulate sunlight filtering through the dense canopy.
+4. **Water Elements**: Added a calm, reflecting pond in the center to provide a sense of peace.
+
+---
+
+## Asset Usage:
+- **Environment Assets**: "Unity Terrain Tools", "Free Nature Assets", and "Fantasy Forest Asset Pack".
+- **Lighting**: Custom Point Lights and Directional Light with volumetric settings.
+- **VFX**: Particle systems for falling leaves and fireflies.
+
+---
+
+## Submission Details:
+- **Unity Project File**: `WhisperingWoods_KomalMagar.unitypackage`
+- **Screenshots**: `Screenshot_1.png`, `Screenshot_2.png`, `Screenshot_3.png`.
+
+---
+**Learning Outcome:**
+This task helped me learn the basics of environmental design in Unity, focusing on asset placement, terrain sculpting, and atmospheric lighting.
